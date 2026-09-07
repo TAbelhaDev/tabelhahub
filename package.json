@@ -6,6 +6,7 @@
 	"scripts": {
 		"aggregate": "node scripts/aggregate.mjs",
 		"syndicate": "node scripts/syndicate.mjs",
+		"new-post": "node scripts/new-post.mjs",
 		"dev": "vite dev",
 		"build": "wrangler types && vite build",
 		"preview": "wrangler dev .svelte-kit/cloudflare/_worker.js --port 4173",
