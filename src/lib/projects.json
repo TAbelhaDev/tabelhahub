@@ -183,7 +183,7 @@
 		"links": {}
 	},
 	{
-		"name": "tabelhascaffold",
+		"name": "tabelhascaff",
 		"description": "",
 		"tagline": "",
 		"language": "Go",
@@ -191,7 +191,7 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhascaffold",
+		"html_url": "https://github.com/TAbelhaDev/tabelhascaff",
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-03T19:42:14Z",
@@ -255,6 +255,21 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-03T18:18:12Z",
+		"links": {}
+	},
+	{
+		"name": "tabelhahubcli",
+		"description": "",
+		"tagline": "",
+		"language": "Go",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelhahubcli",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-06T18:55:26Z",
 		"links": {}
 	}
 ]
