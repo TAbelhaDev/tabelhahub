@@ -1,18 +1,18 @@
 [
 	{
-		"repo": "tabelawhisper",
+		"repo": "tabelhawhisper",
 		"version": "1.0.1",
 		"date": "2026-09-01",
 		"title": "v1.0.1",
-		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TAbelhaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TAbelhaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
+		"body": "## v1.0.1\n\n### Changed\n- Repository renamed from `tabela-whisper` to `tabelawhisper` to match TabelaDev org naming convention. GitHub redirect is automatic.\n\n## What's Changed\n* rename: tabela-whisper -> tabelawhisper by @ianptkcs in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n## New Contributors\n* @ianptkcs made their first contribution in https://github.com/TabelaDev/tabelawhisper/pull/1\n\n**Full Changelog**: https://github.com/TabelaDev/tabelawhisper/compare/v1.0.0...v1.0.1",
 		"source": "release"
 	},
 	{
-		"repo": "tabelawhisper",
+		"repo": "tabelhawhisper",
 		"version": "1.0.0",
 		"date": "2026-08-27",
 		"title": "v1.0.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabela-whisper/commits/v1.0.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabela-whisper/commits/v1.0.0",
 		"source": "release"
 	},
 	{
@@ -20,7 +20,7 @@
 		"version": "0.28.4",
 		"date": "2026-08-27",
 		"title": "v0.28.4",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.2...v0.28.4",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.2...v0.28.4",
 		"source": "release"
 	},
 	{
@@ -28,7 +28,7 @@
 		"version": "0.28.2",
 		"date": "2026-08-27",
 		"title": "v0.28.2",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.1...v0.28.2",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.1...v0.28.2",
 		"source": "release"
 	},
 	{
@@ -36,15 +36,15 @@
 		"version": "0.28.1",
 		"date": "2026-08-27",
 		"title": "v0.28.1",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.28.0...v0.28.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.28.0...v0.28.1",
 		"source": "release"
 	},
 	{
-		"repo": "tjobs-packs",
+		"repo": "tajobs-packs",
 		"version": "0.1.0",
 		"date": "2026-08-26",
 		"title": "v0.1.0",
-		"body": "Initial registry release.\n\n- `index.json` consumed by tjobs' pack browser (`p` in the TUI, or `tjobs packs list`)\n- **model-monitor** pack: LLM pricing watchdog via models.dev (free-to-paid alerts, watchlist price moves, new free model discovery), suggested schedule every 6h\n\nInstall: `tjobs install https://github.com/TAbelhaDev/tjobs-packs#model-monitor`",
+		"body": "Initial registry release.\n\n- `index.json` consumed by tjobs' pack browser (`p` in the TUI, or `tjobs packs list`)\n- **model-monitor** pack: LLM pricing watchdog via models.dev (free-to-paid alerts, watchlist price moves, new free model discovery), suggested schedule every 6h\n\nInstall: `tjobs install https://github.com/TabelaDev/tjobs-packs#model-monitor`",
 		"source": "release"
 	},
 	{
@@ -52,51 +52,59 @@
 		"version": "0.28.0",
 		"date": "2026-08-26",
 		"title": "v0.28.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.26.0...v0.28.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.26.0...v0.28.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelavagas",
+		"repo": "tabelhajobs",
+		"version": "1.2.0",
+		"date": "2026-08-26",
+		"title": "v1.2.0",
+		"body": "<!-- Release notes generated using configuration in .github/release.yml at v1.2.0 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/tabelajobs/compare/v1.1.1...v1.2.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhavagas",
 		"version": "0.2.0",
 		"date": "2026-08-25",
 		"title": "v0.2.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelavagas/compare/v0.1.0...v0.2.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/compare/v0.1.0...v0.2.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
+		"repo": "tabelhascaff",
 		"version": "0.6.0",
 		"date": "2026-08-25",
 		"title": "v0.6.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.5.0...v0.6.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.5.0...v0.6.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelakanban",
+		"repo": "tabelhakanban",
 		"version": "0.4.0",
 		"date": "2026-08-25",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/compare/v0.3.0...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.3.0...v0.4.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaradar",
+		"repo": "tabelharadar",
 		"version": "0.4.0",
 		"date": "2026-08-25",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.3...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.3...v0.4.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaradar",
+		"repo": "tabelharadar",
 		"version": "0.3.3",
 		"date": "2026-08-25",
 		"title": "v0.3.3",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.2...v0.3.3",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.2...v0.3.3",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaquickrun",
+		"repo": "tabelhaquickrun",
 		"version": "1.0.0",
 		"date": "2026-08-23",
 		"title": "v1.0.0",
@@ -108,107 +116,139 @@
 		"version": "0.26.0",
 		"date": "2026-08-23",
 		"title": "v0.26.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhawebui/compare/v0.25.0...v0.26.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelawebui/compare/v0.25.0...v0.26.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelakanban",
+		"repo": "tabelhajobs",
+		"version": "1.1.1",
+		"date": "2026-08-19",
+		"title": "v1.1.1",
+		"body": "## Fixed\n\n- DMS plugin settings panel never loaded: removed unsupported `stepSize` property from `SliderSetting` and reordered imports to match DMS plugin conventions.\n\n<!-- Release notes generated using configuration in .github/release.yml at v1.1.1 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/tabelajobs/compare/v0.3.1...v1.1.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhakanban",
 		"version": "0.3.0",
 		"date": "2026-08-14",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/compare/v0.2.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/compare/v0.2.0...v0.3.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaradar",
+		"repo": "tabelharadar",
 		"version": "0.3.2",
 		"date": "2026-08-14",
 		"title": "v0.3.2",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.1...v0.3.2",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.1...v0.3.2",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaradar",
+		"repo": "tabelharadar",
 		"version": "0.3.1",
 		"date": "2026-08-14",
 		"title": "v0.3.1",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.3.0...v0.3.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.0...v0.3.1",
 		"source": "release"
 	},
 	{
-		"repo": "tabelaradar",
+		"repo": "tabelharadar",
 		"version": "0.3.0",
 		"date": "2026-08-14",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelaradar/compare/v0.1.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.1.0...v0.3.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
+		"repo": "tabelhascaff",
 		"version": "0.5.0",
 		"date": "2026-08-11",
 		"title": "v0.5.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
+		"repo": "tabelhascaff",
 		"version": "0.4.1",
 		"date": "2026-08-10",
 		"title": "v0.4.1",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.0...v0.4.1",
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
+		"repo": "tabelhascaff",
 		"version": "0.4.0",
 		"date": "2026-08-10",
 		"title": "v0.4.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.3.0...v0.4.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelascaffold",
+		"repo": "tabelhascaff",
 		"version": "0.3.0",
 		"date": "2026-08-10",
 		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
 		"source": "release"
 	},
 	{
-		"repo": "tabelatuiui",
+		"repo": "tabelhatuiui",
 		"version": "0.4.0",
 		"date": "2026-08-10",
-		"title": "tabelatuiui 0.4.0",
+		"title": "tabelhatuiui 0.4.0",
 		"body": "### Added\n\n- `Config[T]` — settings de app em TOML (`<ConfigDir()>/<app>/config.toml`),\n  seguindo o mesmo modelo config-file-first do `KeyRegistry`:\n  `NewConfig(path, defaults)` + `Load()`/`Reload()`/`Get()`. O merge é por\n  chave — o arquivo só sobrescreve os campos que aparecem nele, o resto fica\n  no default — e cada app define o próprio schema (`T`). Arquivo ausente não é\n  erro; arquivo malformado devolve erro **preservando o valor anterior**, pra\n  um typo no meio da edição não derrubar um app rodando pros defaults.\n\n- `ConfigPath(app, file)` — resolve `~/.config/<app>/<file>` respeitando\n  `XDG_CONFIG_HOME`, substituindo o `filepath.Join(ConfigDir(), app, file)`\n  que era copiado em cada app.\n\n- `KeyRegistry.Reload()` — re-lê o arquivo de keybindings do disco (fonte da\n  verdade) e reporta se os overrides mudaram; `Load()` agora delega pra ele.\n  Edições externas no `keybindings.json` passam a valer chamando `Reload()`\n  numa tecla de recarga (ou a cada `View()`), sem reiniciar.\n\n### Changed\n\n- Fluxo de keybindings documentado como **config-file-first** no README:\n  editar `keybindings.json` + recarregar é o caminho primário, e `Label`\n  multi-tecla (ex.: `nav` com `ctrl+h/j/k/l`) é o padrão canônico de hints\n  agrupados — uma linha no footer/help em vez de uma entrada por tecla.\n  `SettingsModal` fica como conveniência opcional, não o único caminho.\n\n- `KeyRegistry` — fonte única de verdade das keybindings: defaults\n  registrados em código + overrides por ação persistidos em JSON\n  (`bindings.json`). `Resolve(id)` devolve o binding efetivo (override vence),\n  `Bindings()` alimenta Footer/HelpModal, `Set` valida conflito de tecla,\n  `Reset`/`ResetAll` restauram os defaults (e apagam o arquivo quando nada\n  está customizado).\n- `SettingsModal` — overlay de edição de teclas: navega pela lista de ações\n  (j/k, g/G, pgup/pgdn), `enter` entra no modo \"pressione a nova tecla\",\n  `r` reseta uma ação, `R` reseta tudo, mostra conflito em vermelho e marca\n  com `●` as ações customizadas.\n- `HelpSection.BindingsFn` — provider dinâmico de bindings pro HelpModal,\n  pra ele refletir rebinds feitos no SettingsModal na hora.",
 		"source": "changelog"
 	},
 	{
-		"repo": "tabelavagas",
-		"version": "0.1.0",
-		"date": "2026-08-09",
-		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelavagas/commits/v0.1.0",
+		"repo": "tabelhajobs",
+		"version": "0.3.1",
+		"date": "2026-08-10",
+		"title": "v0.3.1",
+		"body": "<!-- Release notes generated using configuration in .github/release.yml at v0.3.1 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/dankjobs/compare/v0.3.0...v0.3.1",
 		"source": "release"
 	},
 	{
-		"repo": "tabelatuiui",
+		"repo": "tabelhajobs",
+		"version": "0.3.0",
+		"date": "2026-08-10",
+		"title": "v0.3.0",
+		"body": "<!-- Release notes generated using configuration in .github/release.yml at v0.3.0 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/dankjobs/compare/v0.2.2...v0.3.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhavagas",
+		"version": "0.1.0",
+		"date": "2026-08-09",
+		"title": "v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelavagas/commits/v0.1.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhatuiui",
 		"version": "0.2.0",
 		"date": "2026-08-09",
-		"title": "tabelatuiui 0.2.0",
-		"body": "### Added\n\n- `NewThemeFromEnv(appPrefix)` — resolve o tema lendo `<PREFIX>_DMS_SETTINGS`\n  e `<PREFIX>_ACCENT` do ambiente, substituindo o boilerplate de `theme.go`\n  que todo app repetia.\n- `Footer` — builder da barra de status/help: contexto à esquerda + hints de\n  teclado à direita, gerados a partir de uma slice de `key.Binding` (nunca\n  mais drift entre o que o `Update` aceita e o que o footer mostra). O\n  overflow é truncado por token (` · `) em vez de caractere.\n- `HelpModal` — overlay centralizado listando todas as keybindings em seções\n  (o \"?\" de todo TUI), com scroll e fechamento por `q`/`esc`. Só precisa do\n  tema; a lib cuida do posicionamento.\n- `Binding` — alias para `key.Binding` (bubbles/key), exposto pelo pacote\n  pra apps não precisarem importar a bubbles diretamente pra declarar atalhos.\n\n### Changed\n\n- `tabelatuiui` agora depende de `bubbles`/`bubbletea` (para os tipos\n  `key.Binding` usados por `Footer`/`HelpModal`).",
+		"title": "tabelhatuiui 0.2.0",
+		"body": "### Added\n\n- `NewThemeFromEnv(appPrefix)` — resolve o tema lendo `<PREFIX>_DMS_SETTINGS`\n  e `<PREFIX>_ACCENT` do ambiente, substituindo o boilerplate de `theme.go`\n  que todo app repetia.\n- `Footer` — builder da barra de status/help: contexto à esquerda + hints de\n  teclado à direita, gerados a partir de uma slice de `key.Binding` (nunca\n  mais drift entre o que o `Update` aceita e o que o footer mostra). O\n  overflow é truncado por token (` · `) em vez de caractere.\n- `HelpModal` — overlay centralizado listando todas as keybindings em seções\n  (o \"?\" de todo TUI), com scroll e fechamento por `q`/`esc`. Só precisa do\n  tema; a lib cuida do posicionamento.\n- `Binding` — alias para `key.Binding` (bubbles/key), exposto pelo pacote\n  pra apps não precisarem importar a bubbles diretamente pra declarar atalhos.\n\n### Changed\n\n- `tabelhatuiui` agora depende de `bubbles`/`bubbletea` (para os tipos\n  `key.Binding` usados por `Footer`/`HelpModal`).",
 		"source": "changelog"
 	},
 	{
-		"repo": "tabelatuiui",
+		"repo": "tabelhatuiui",
 		"version": "0.1.1",
 		"date": "2026-08-09",
-		"title": "tabelatuiui 0.1.1",
+		"title": "tabelhatuiui 0.1.1",
 		"body": "### Changed\n\n- `Header` agora usa o background do accent (Primary) com texto Base, em vez\n  de mantle + texto accent — o cabeçalho fica visível contra terminal escuro.\n- `Modal` passou a usar borda do accent (Primary) no lugar de lavender.\n- `Header`/`Footer` ficam flush contra as bordas do terminal, com padding\n  horizontal de 2 colunas (removido o antigo padding interno que os apps\n  precisavam compensar).",
 		"source": "changelog"
 	},
 	{
-		"repo": "tabelakanban",
+		"repo": "tabelhajobs",
+		"version": "0.2.2",
+		"date": "2026-08-09",
+		"title": "v0.2.2",
+		"body": "<!-- Release notes generated using configuration in .github/release.yml at v0.2.2 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/dankjobs/compare/v0.2.1...v0.2.2",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhakanban",
 		"version": "0.2.0",
 		"date": "2026-08-06",
 		"title": "v0.2.0",
@@ -216,11 +256,11 @@
 		"source": "release"
 	},
 	{
-		"repo": "tabelakanban",
+		"repo": "tabelhakanban",
 		"version": "0.1.0",
 		"date": "2026-08-04",
 		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelakanban/commits/v0.1.0",
+		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
 		"source": "release"
 	}
 ]
