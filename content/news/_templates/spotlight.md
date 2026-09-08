@@ -1,8 +1,8 @@
 ---
-title: 'tabelaproj: o que eu aprendi construindo [descrição curta]'
+title: 'tabelhaproj: o que eu aprendi construindo [descrição curta]'
 date: YYYY-MM-DD
 summary: 'Resumo curto do post.'
-tags: [tabelaproj]
+tags: [tabelhaproj]
 featured: true
 ---
 
@@ -35,4 +35,4 @@ Próximos passos, features planejadas, o que mudaria se fosse recomeçar.
 
 ---
 
-Post publicado no [tabelhahub](https://tabelhahub.tabelhadev.workers.dev/news/tabelaproj).
+Post publicado no [tabelhahub](https://tabelhahub.tabelhadev.workers.dev/news/tabelhaproj).

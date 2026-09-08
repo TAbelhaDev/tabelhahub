@@ -2,7 +2,7 @@
 title: 'Novo feature: [nome da feature]'
 date: YYYY-MM-DD
 summary: 'Resumo curto do que mudou.'
-tags: [tabelaproj]
+tags: [tabelhaproj]
 featured: false
 ---
 

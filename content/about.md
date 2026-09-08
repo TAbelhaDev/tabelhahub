@@ -1,18 +1,18 @@
-A TAbelhaDev é uma organização que eu idealizei para criar uma identidade única para os diversos projetos que eu pensei em desenvolver. O nome "Tabela" vem da minha "obsessão" em sistematizar e padronizar tudo que eu vejo ao meu redor. Uma obsessão que pode, ou não, ser oriunda de uma dupla excepcionalidade.
+A TAbelhaDev é uma organização que eu idealizei para criar uma identidade única para os diversos projetos que eu pensei em desenvolver. O nome "TAbelha" vem da minha "obsessão" em sistematizar e padronizar tudo que eu vejo ao meu redor. Uma obsessão que pode, ou não, ser oriunda de uma dupla excepcionalidade.
 
 ## A identidade
 
 Não é à toa que todos os projetos:
 
 - utilizam o design de um único projeto (`tabelhawebui` e `tabelhatuiui`)
-- seguem o mesmo padrão de nomenclatura (`Tabela` + XXX)
-- seguem a mesma organização no github (definida no `tabelascaffold`)
+- seguem o mesmo padrão de nomenclatura (`TAbelha` + XXX)
+- seguem a mesma organização no github (definida no `tabelhascaff`)
 
 e por aí vai.
 
-## Código livre
+## Software livre
 
-Pelo meu posicionamento político (spoiler: eu estava em dúvida entre Camarada e Tabela), _praticamente_ todos os projetos contribuem para o movimento de [código livre no Brasil](https://www.youtube.com/watch?v=Auoe3XsWthM), numa ideia de socializar a produção de software para a população.
+Pelo meu posicionamento político (spoiler: eu estava em dúvida entre Camarada e TAbelha), _praticamente_ todos os projetos contribuem para o movimento do [software livre no Brasil](https://www.youtube.com/watch?v=Auoe3XsWthM), numa ideia de socializar a produção de software para a população.
 
 ## Auto custo
 

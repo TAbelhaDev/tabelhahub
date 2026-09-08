@@ -1,5 +1,35 @@
 [
 	{
+		"name": "tabelhafin",
+		"description": "Finanças pessoais com IA e Open Finance (Nubank + XP), auto custo (BYOK)",
+		"tagline": "Finanças pessoais com IA e Open Finance - auto custo, suas chaves (BYOK).",
+		"language": "TypeScript",
+		"kind": "web",
+		"accent": "var(--ctp-green)",
+		"featured": true,
+		"order": 1,
+		"html_url": "https://github.com/TAbelhaDev/tabelhafin",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-01T21:34:19Z",
+		"links": {}
+	},
+	{
+		"name": "tabelhacal",
+		"description": "Agenda com IA em linguagem natural com \"auto custo\"",
+		"tagline": "Agenda com IA em linguagem natural, no mesmo espírito \"auto custo\".",
+		"language": "TypeScript",
+		"kind": "web",
+		"accent": "var(--ctp-peach)",
+		"featured": true,
+		"order": 2,
+		"html_url": "https://github.com/TAbelhaDev/tabelhacal",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-22T16:10:32Z",
+		"links": {}
+	},
+	{
 		"name": "tabelhavagas",
 		"description": "Filtra vagas de programação que valem a pena pro teu perfil e notifica as que importam. Monobando em Go: collect → rank → top → notify.",
 		"tagline": "Filtra vagas de programação que valem a pena e notifica as que importam.",
@@ -93,6 +123,21 @@
 		"links": {}
 	},
 	{
+		"name": "tabelhascaff",
+		"description": "",
+		"tagline": "Injeta a estrutura open-source (CI, release, templates, CONTRIBUTING, LICENSE) num repo novo.",
+		"language": "Go",
+		"kind": "tui",
+		"accent": "var(--ctp-blue)",
+		"featured": false,
+		"order": 9,
+		"html_url": "https://github.com/TAbelhaDev/tabelhascaff",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-08-25T19:14:43Z",
+		"links": {}
+	},
+	{
 		"name": "tabelhaquickrun",
 		"description": "DankMaterialShell launcher plugin: run a command matched against your fish functions and abbreviations",
 		"tagline": "Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.",
@@ -105,36 +150,6 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-02T19:14:21Z",
-		"links": {}
-	},
-	{
-		"name": "tabelhawhisper",
-		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
-		"tagline": "Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.",
-		"language": "Python",
-		"kind": "script",
-		"accent": "var(--ctp-pink)",
-		"featured": false,
-		"order": 11,
-		"html_url": "https://github.com/TAbelhaDev/tabelhawhisper",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-09-03T18:21:09Z",
-		"links": {}
-	},
-	{
-		"name": "tabelhacal",
-		"description": "Agenda com IA em linguagem natural com \"auto custo\"",
-		"tagline": "Agenda com IA em linguagem natural com \"auto custo\"",
-		"language": "TypeScript",
-		"kind": "web",
-		"accent": "var(--ctp-mauve)",
-		"featured": false,
-		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhacal",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-09-03T18:52:10Z",
 		"links": {}
 	},
 	{
@@ -168,33 +183,18 @@
 		"links": {}
 	},
 	{
-		"name": "tabelhafin",
-		"description": "Finanças pessoais com IA e Open Finance (Nubank + XP), auto custo (BYOK)",
-		"tagline": "Finanças pessoais com IA e Open Finance (Nubank + XP), auto custo (BYOK)",
+		"name": "tabelaport",
+		"description": "",
+		"tagline": "",
 		"language": "TypeScript",
 		"kind": "web",
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhafin",
+		"html_url": "https://github.com/TAbelhaDev/tabelaport",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-03T18:52:09Z",
-		"links": {}
-	},
-	{
-		"name": "tabelhascaff",
-		"description": "",
-		"tagline": "",
-		"language": "Go",
-		"kind": "web",
-		"accent": "var(--ctp-mauve)",
-		"featured": false,
-		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhascaff",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-09-03T19:42:14Z",
+		"pushed_at": "2026-08-22T16:05:17Z",
 		"links": {}
 	},
 	{
@@ -209,7 +209,7 @@
 		"html_url": "https://github.com/TAbelhaDev/tabelhainvest",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-03T18:52:09Z",
+		"pushed_at": "2026-09-01T21:35:39Z",
 		"links": {}
 	},
 	{
@@ -243,7 +243,7 @@
 		"links": {}
 	},
 	{
-		"name": "tajobs-packs",
+		"name": "tjobs-packs",
 		"description": "Registry de job packs para o tjobs",
 		"tagline": "Registry de job packs para o tjobs",
 		"language": "Shell",
@@ -251,25 +251,25 @@
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tajobs-packs",
+		"html_url": "https://github.com/TAbelhaDev/tjobs-packs",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-03T18:18:12Z",
+		"pushed_at": "2026-08-26T01:40:36Z",
 		"links": {}
 	},
 	{
-		"name": "tabelhahubcli",
-		"description": "",
-		"tagline": "",
-		"language": "Go",
+		"name": "tabelawhisper",
+		"description": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"tagline": "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification.",
+		"language": "Python",
 		"kind": "web",
 		"accent": "var(--ctp-mauve)",
 		"featured": false,
 		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhahubcli",
+		"html_url": "https://github.com/TAbelhaDev/tabelawhisper",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-06T18:55:26Z",
+		"pushed_at": "2026-09-01T19:33:00Z",
 		"links": {}
 	}
 ]

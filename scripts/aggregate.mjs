@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Agrega os dados do hub a partir do GitHub:
- *  - projects.json: repos públicos do org TabelaDev + overlay curado
+ *  - projects.json: repos públicos do org TAbelhaDev + overlay curado
  *    (ordem, featured, tagline, accent, links) definido abaixo.
  *  - changelog.json: entradas de release (GitHub Releases) + seções
  *    `## [v] - data` dos CHANGELOG.md de cada repo público.
@@ -19,7 +19,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TAbelhaDev';
 const SITE = 'tabelhahub';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
-   da pessoa (tabelaport) - os dois são linkados à parte. */
+   da pessoa (tabelhaport) - os dois são linkados à parte. */
 const EXCLUDED = new Set(['.github', 'tabelhaport']);
 
 /* Overlay curado: o que o script NÃO decide sozinho. Chave = nome do repo.
@@ -102,14 +102,6 @@ const overlay = {
 		tagline: 'Atalhos de texto expansíveis no DankMaterialShell (dms) — abreviação vira snippet.'
 	},
 	tabelhawhisper: {
-		order: 11,
-		featured: false,
-		kind: 'script',
-		accent: 'var(--ctp-pink)',
-		tagline:
-			'Ditador por voz para DankMaterialShell no niri: grave, transcreva local com faster-whisper, copie.'
-	},
-	'tabelhawhisper': {
 		order: 11,
 		featured: false,
 		kind: 'script',

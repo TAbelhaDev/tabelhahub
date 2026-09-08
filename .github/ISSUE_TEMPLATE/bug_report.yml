@@ -1,5 +1,5 @@
 name: Bug report
-description: Reportar um comportamento incorreto no tabelahub
+description: Reportar um comportamento incorreto no tabelhahub
 labels: ['bug']
 body:
   - type: textarea
@@ -14,7 +14,7 @@ body:
     attributes:
       label: Passos para reproduzir
       placeholder: |
-        1. Rode 'tabelahub ...'
+        1. Rode 'tabelhahub ...'
         2. Navegue até '...'
         3. Veja o erro
     validations:
@@ -23,7 +23,7 @@ body:
     id: environment
     attributes:
       label: Ambiente
-      placeholder: SO, terminal/emulador, versão do tabelahub (ou do Go, se compilado do source)
+      placeholder: SO, terminal/emulador, versão do tabelhahub (ou do Go, se compilado do source)
     validations:
       required: false
   - type: textarea

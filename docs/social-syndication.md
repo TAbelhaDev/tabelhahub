@@ -11,8 +11,8 @@ cross-post, e a interação (responder gente) fica num único canal ativo.
 
 ## Decisões já tomadas
 
-- **Handle da marca**: `tabeladev` em todas as redes
-  (`@tabelhadev.bsky.social`, `dev.to/tabeladev`, `@tabelhadev@<instância>`).
+- **Handle da marca**: `tabelhadev` em todas as redes
+  (`@tabelhadev.bsky.social`, `dev.to/tabelhadev`, `@tabelhadev@<instância>`).
 - **dev.to**: cross-post do **artigo completo** (body_markdown integral), com
   `canonical_url` apontando pro hub pra preservar SEO.
 - **Domínio**: lançar com o `workers.dev` atual
@@ -69,10 +69,10 @@ API direta `POST /api/v1/statuses` com token.
 
 ## Contas a criar (manual)
 
-| Rede     | Handle                   | Credencial                                               |
-| -------- | ------------------------ | -------------------------------------------------------- |
+| Rede     | Handle                    | Credencial                                               |
+| -------- | ------------------------- | -------------------------------------------------------- |
 | Bluesky  | `@tabelhadev.bsky.social` | App password (Settings → App passwords)                  |
-| dev.to   | `dev.to/tabeladev`       | API key (Settings → Extensions → DEV Community API Keys) |
+| dev.to   | `dev.to/tabelhadev`       | API key (Settings → Extensions → DEV Community API Keys) |
 | Mastodon | `@tabelhadev@<instância>` | brid.gy fed (sem token)                                  |
 
 ## Fases

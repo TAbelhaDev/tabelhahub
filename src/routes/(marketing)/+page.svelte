@@ -13,7 +13,7 @@
 
 	const TITLE = 'TAbelhaHub';
 	const DESCRIPTION =
-		'Landing, news e changelog agregado dos produtos da TAbelhaDev: apps web, TUIs, libs e scripts com a filosofia do software livre.';
+		'Um hub que agrega todas as novidades, produtos e atualizações da TAbelhaDev.';
 
 	const kindLabel: Record<Project['kind'], string> = {
 		web: 'web',
@@ -23,8 +23,10 @@
 		script: 'script'
 	};
 
+	// const HERO_LEAD =
+	// 'Eu faço apps web, TUIs e libs sobre uma crença simples: software pessoal deveria custar quase nada pra rodar ("auto custo") e dar gosto de usar. Sem mensalidade o olho da cara, sem lock-in. Esta página é o ponto de entrada - landing, news e o changelog que se mantém sozinho.';
 	const HERO_LEAD =
-		'Eu faço apps web, TUIs e libs sobre uma crença simples: software pessoal deveria custar quase nada pra rodar ("auto custo") e dar gosto de usar. Sem mensalidade o olho da cara, sem lock-in. Esta página é o ponto de entrada - landing, news e o changelog que se mantém sozinho.';
+		'Estou desenvolvendo apps web, TUIs e libs sobre a crença do software livre.';
 	const HERO_NOTE =
 		'Landing, changelog e as decisões por trás de cada projeto: tudo num só lugar, pra ninguém ter que caçar em N repos.';
 	const PHILOSOPHY_LEAD = 'Mais detalhes no post "Por que auto custo".';
@@ -61,7 +63,7 @@
 </script>
 
 {#snippet heroTitle()}
-	<Wordmark prefix="Tabela" suffix="Hub" />
+	<Wordmark prefix="TAbelha" suffix="Hub" />
 {/snippet}
 
 <Page.Seo siteName="TAbelhaHub" title={TITLE} description={DESCRIPTION} />
@@ -85,7 +87,7 @@
 		/>
 		<div class="grid gap-4 md:grid-cols-2">
 			{#each [...featured, ...rest] as project (project.name)}
-				<Card class="flex flex-col">
+				<Card>
 					<a href={resolve(`/news/tag/${project.name}`)} class="block">
 						<Card.Header>
 							{#snippet title()}

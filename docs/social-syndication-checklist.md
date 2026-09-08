@@ -6,7 +6,7 @@ workflow syndicate.yml). Falta a parte manual e os passos de ativação.
 ## 1. Contas (manual)
 
 - [ ] Criar Bluesky `@tabelhadev.bsky.social`
-- [ ] Criar dev.to `dev.to/tabeladev`
+- [ ] Criar dev.to `dev.to/tabelhadev`
 - [ ] Criar Mastodon `@tabelhadev@<instância>` (definir qual instância)
 
 ## 2. Credenciais
@@ -17,7 +17,7 @@ workflow syndicate.yml). Falta a parte manual e os passos de ativação.
 ## 3. Secrets no GitHub (repo TAbelhaDev/tabelhahub → Settings → Secrets → Actions)
 
 - [ ] `DEVTO_API_KEY`
-- [ ] `BLUESKY_HANDLE` (ex.: `tabeladev.bsky.social`)
+- [ ] `BLUESKY_HANDLE` (ex.: `tabelhadev.bsky.social`)
 - [ ] `BLUESKY_APP_PASSWORD`
 
 ## 4. Commitar a implementação

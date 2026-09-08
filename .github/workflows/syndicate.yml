@@ -35,7 +35,7 @@ jobs:
         if: always()
         run: |
           if ! git diff --quiet -- scripts/syndicated.json; then
-            git config user.name "tabelahub-bot"
+            git config user.name "tabelhahub-bot"
             git config user.email "noreply@github.com"
             git add scripts/syndicated.json
             git commit -m "chore: update syndication state"
