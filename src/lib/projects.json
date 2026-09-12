@@ -34,7 +34,7 @@
 	},
 	{
 		"name": "tabelhaos",
-		"description": "TabelaOS — shared target-stack spec for TabelaArch and TabelaNix: niri + DankMaterialShell, hardware facts, NVIDIA/Optimus config, package equivalence table",
+		"description": "TabelhaOS — shared target-stack spec for TabelhaArch and TabelhaNix: niri + DankMaterialShell, hardware facts, NVIDIA/Optimus config, package equivalence table",
 		"tagline": "Instalador do Arch Linux com gum - archiso + LUKS2, testado em QEMU.",
 		"language": "",
 		"kind": "os",
@@ -154,8 +154,8 @@
 	},
 	{
 		"name": "tabelhaarch",
-		"description": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
-		"tagline": "TabelaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
+		"description": "TabelhaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
+		"tagline": "TabelhaArch — gum-styled Arch Linux installer for niri + DankMaterialShell, archiso+LUKS2, tested in QEMU",
 		"language": "Shell",
 		"kind": "web",
 		"accent": "var(--ctp-mauve)",
@@ -229,8 +229,8 @@
 	},
 	{
 		"name": "tabelhanix",
-		"description": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
-		"tagline": "TabelaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
+		"description": "TabelhaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
+		"tagline": "TabelhaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
 		"language": "",
 		"kind": "web",
 		"accent": "var(--ctp-mauve)",
