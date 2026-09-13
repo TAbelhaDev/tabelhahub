@@ -1,5 +1,13 @@
 [
 	{
+		"repo": "tabelhatuiui",
+		"version": "0.6.0",
+		"date": "2026-09-12",
+		"title": "tabelhatuiui 0.6.0",
+		"body": "### Added\n\n- `schedule` package — schedule form + computation shared across TAbelha TUIs:\n  - `Schedule` struct with `Kind` (Oneshot/Daily/Weekly/Monthly/Cycle/Manual)\n  - `Groups()` returns huh groups for recurrence select + conditional fields\n  - `OnCalendar(now)` generates systemd OnCalendar expressions\n  - `OneshotCleanupTail` / `CycleRescheduleTail` for script generation\n  - Validators: `ValidateDDMM`, `ValidateHHMM`, `ValidateDayOfMonth`, `ValidateCycle`\n  - Parsers: `ParseDDMM`, `ParseHHMM`, `ParseCycle`\n  - `WeekdayAbbr`, `WeekdayOrder`, `Schedule.String()` for display\n\n### Added\n\n- `HelpModal` — keys agora são renderizadas em **negrito** para melhor\n  legibilidade. Seções com múltiplos `HelpSection` ficam visualmente\n  separadas com títulos em estilo dim.\n\n- `SettingsModal` — busca por descrição: pressione `/` para digitar um\n  filtro, que filtra a lista em tempo real (case-insensitive). `enter`\n  confirma e volta à navegação, `esc` limpa o filtro.\n\n### Changed\n\n- `SettingsModal` — controles de navegação agora operam sobre a lista\n  filtrada (quando há filtro ativo), não sobre todas as ações.",
+		"source": "changelog"
+	},
+	{
 		"repo": "tabelhamem",
 		"version": "0.2.0",
 		"date": "2026-09-09",
