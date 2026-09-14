@@ -212,21 +212,7 @@
 		"pushed_at": "2026-09-03T18:52:09Z",
 		"links": {}
 	},
-	{
-		"name": "tabelhawt",
-		"description": "The tube of your network: a YouTube aggregator with your own recommendation algorithm",
-		"tagline": "The tube of your network: a YouTube aggregator with your own recommendation algorithm",
-		"language": "",
-		"kind": "web",
-		"accent": "var(--ctp-mauve)",
-		"featured": false,
-		"order": 99,
-		"html_url": "https://github.com/TAbelhaDev/tabelhawt",
-		"homepage": "",
-		"topics": [],
-		"pushed_at": "2026-09-02T19:14:01Z",
-		"links": {}
-	},
+
 	{
 		"name": "tabelhanix",
 		"description": "TabelhaNix — NixOS flake installer for the niri + DankMaterialShell stack (placeholder, implementation not started)",
