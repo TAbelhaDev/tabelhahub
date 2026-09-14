@@ -1,5 +1,13 @@
 [
 	{
+		"repo": "tabelhamem",
+		"version": "0.3.0",
+		"date": "2026-09-14",
+		"title": "v0.3.0",
+		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.2.0...v0.3.0",
+		"source": "release"
+	},
+	{
 		"repo": "tabelhatuiui",
 		"version": "0.6.0",
 		"date": "2026-09-12",
@@ -14,6 +22,14 @@
 		"title": "v0.2.0",
 		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.1.0...v0.2.0",
 		"source": "release"
+	},
+	{
+		"repo": "tabelhamem",
+		"version": "0.1.0",
+		"date": "2026-09-09",
+		"title": "tabelhamem 0.1.0",
+		"body": "### Added\n- Initial release: `link`, `status`, and `list` IPC methods.\n- Bilingual README (English + Portuguese).\n- CI and release workflows.",
+		"source": "changelog"
 	},
 	{
 		"repo": "tabelhascaff",
