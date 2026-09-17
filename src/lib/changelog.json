@@ -1,5 +1,149 @@
 [
 	{
+		"repo": "tabelharecap",
+		"version": "0.2.0",
+		"date": "2026-09-17",
+		"title": "v0.2.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelharecap/cmd/tarecap@latest`.\n\n## Changes\n- Moved `package main` into `cmd/tarecap/`.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/tarecap` after every commit.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelharecap/compare/v0.1.0...v0.2.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelharecap/compare/v0.1.0...v0.2.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelharecap",
+		"version": "0.1.0",
+		"date": "2026-09-17",
+		"title": "v0.1.0",
+		"body": "### Added\n- 3-panel detail layout (wide terminals): feed list on the left, metadata panel (source, full timestamp, seen status, link) on the top-right, and scrollable markdown description panel on the bottom-right. Falls back to the single-panel table on narrow terminals.\n- `ctrl+h` / `ctrl+l` to switch focus between the list and description panels (ecosystem convention from taglue/tabelharadar). Description panel captures j/k/pgup/pgdn/home/end when focused.\n- `body` field now rendered as styled markdown in the description panel via `tabelhatuiui v0.7.0`'s `markdown.Panel` + glamour.\n- New `notify.go`: desktop notification alerting for new items.\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelharecap/commits/v0.1.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhamem",
+		"version": "0.5.0",
+		"date": "2026-09-17",
+		"title": "v0.5.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelhamem/cmd/tamem@latest`.\n\n## Changes\n- Moved `package main` into `cmd/tamem/`.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/tamem` after every commit.\n\nSee [tabelhaglue v0.2.0](https://github.com/TAbelhaDev/tabelhaglue/releases/tag/v0.2.0) and [tabelhascaff v0.8.0](https://github.com/TAbelhaDev/tabelhascaff/releases/tag/v0.8.0) for the underlying convention.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.4.0...v0.5.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.4.0...v0.5.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhamem",
+		"version": "0.4.0",
+		"date": "2026-09-17",
+		"title": "v0.4.0",
+		"body": "### Added\n- `global` IPC method: idempotent setup of the shared global memory store at `~/agent-memory/global/`. Migrates existing `~/.config/opencode/AGENTS.md` and `~/.claude/memory/` content into the store, symlinks both to the shared store.\n- Interactive TUI (Bubble Tea + tabelhatuiui v0.6.0): 3-panel layout (projects sidebar, bridge status, memory browser) with integrated search, link/unlink forms, inline scrollable file viewer, and rebindable keybindings.\n- `config.toml` at `~/.config/tabelhamem/config.toml`: `[[projects]]` slug-to-repo mapping, `[layout]` panel shares, `[general] editor`.\n- `searchMemory()` extracted as a reusable core shared by both IPC and TUI search modes.\n\n### Changed\n- `tamem` (no args) now launches the TUI instead of printing usage to stderr and exiting with code 1.\n- Dependencies: added bubbletea v1.3.10, bubbles v1.0.0, lipgloss v1.1.0, tabelhatuiui v0.6.0, BurntSushi/toml v1.6.0.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.3.0...v0.4.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.3.0...v0.4.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaselfdoc",
+		"version": "0.1.1",
+		"date": "2026-09-17",
+		"title": "v0.1.1",
+		"body": "Fixes a release-breaking bug in v0.1.0: the module had a local relative-path `replace` directive for `tabelhascaff`, which made `go install github.com/TAbelhaDev/tabelhaselfdoc@latest` fail for everyone (confirmed by trying it against v0.1.0 itself). Now depends on the published `tabelhascaff` v0.7.1.\n\nv0.1.0's other fixes (badge-regex bug, per-filter digest-if-changed cache, dedup) are unchanged and included here.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaselfdoc",
+		"version": "0.1.0",
+		"date": "2026-09-17",
+		"title": "v0.1.0",
+		"body": "First release of TAbelhaSelfDoc — project documentation intelligence for the TAbelha ecosystem.\n\n## IPC methods\n- `project.summary` — summary of one project (description, branch, dirty, notes, README)\n- `projects.state` — state of all projects from radar\n- `report` — full report with README content for all projects\n- `digest` — same data as `report`, folded into a single markdown string\n- `digest-if-changed` — same as `digest`, but only returns markdown when it actually changed since the last call (per-filter cache)\n\n## Fixes in this release\n- Fixed a regex in `digest`'s description cleanup that was deleting legitimate README paragraphs starting with `[` (only badge/image lines should have been stripped).\n- Fixed `digest-if-changed`'s cache, which previously ignored the filters passed in and could clobber results between callers using different filters.\n- Deduplicated the digest-building, project-fetching, and per-project wire-format code across the five IPC methods.\n- `taradarIPC` now surfaces the underlying `taradar` process's stderr on failure.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaglue",
+		"version": "0.2.0",
+		"date": "2026-09-17",
+		"title": "v0.2.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelhaglue/cmd/taglue@latest`. The old form (`go install github.com/TAbelhaDev/tabelhaglue@latest`) produced a binary named `tabelhaglue`, which never matched the actual local command name (`taglue`).\n\n## Changes\n- Moved all `package main` files from the repo root into `cmd/taglue/`.\n- Added a `post-commit` git hook (`.githooks/`, wired via `git config core.hooksPath .githooks`) that rebuilds and reinstalls `~/.local/bin/taglue` after every commit, so the local binary never goes stale waiting for a manual rebuild after a release.\n- README documents the new install path and the one-time `core.hooksPath` setup needed per clone.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhaglue/compare/v0.1.3...v0.2.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaglue",
+		"version": "0.1.3",
+		"date": "2026-09-17",
+		"title": "v0.1.3",
+		"body": "## Chore\n- Bump `tabelhatuiui` to v0.7.1, picking up the fix for the markdown description panel dropping all theme colors (headings, inline code, links, emphasis, blockquote) and gluing ordered/unordered list markers to their text (`1text` instead of `1. text`).\n\nSee https://github.com/TAbelhaDev/tabelhatuiui/releases/tag/v0.7.1 for details on the underlying fix.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhaglue/compare/v0.1.2...v0.1.3",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaglue",
+		"version": "0.1.2",
+		"date": "2026-09-17",
+		"title": "v0.1.2",
+		"body": "## Fixes\n- Toggling a workflow's schedule (`e` in the TUI) mutated the entry's `Scheduled` field in place without re-sorting, breaking the Scheduled-first grouping the section-header rendering depends on — the entry could stay under the wrong \"ativos\"/\"inativos\" header until a manual refresh.\n- Extracted `sortWorkflowEntries` so `listWorkflowEntries` and the TUI toggle handler share the same sort logic.\n\n## Testing\n- Replaced the hand-rolled group-only comparator in `TestSortWorkflowEntries_GroupSort` with a call to the real sort function.\n- Added `TestSortWorkflowEntries_ScheduledFirst` covering the Scheduled sort tier.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhaglue/compare/v0.1.1...v0.1.2",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhaglue",
+		"version": "0.1.1",
+		"date": "2026-09-17",
+		"title": "v0.1.1",
+		"body": "Fixes a bug where disabling a workflow via the TUI's quick toggle (`e`) removed its systemd timer/service but left a stale entry in `schedules.toml`, making the workflow keep showing up as \"scheduled\" even though nothing backs it. `DisableWorkflow` now also clears the sidecar entry, matching the behavior the schedule-form's \"manual\" path already had.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhavagas",
+		"version": "0.3.0",
+		"date": "2026-09-17",
+		"title": "v0.3.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelhavagas/cmd/tavagas@latest`.\n\n## Changes\n- Moved `package main` into `cmd/tavagas/`.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/tavagas` after every commit.\n- Fixed `install-timer.sh`'s error message and the missing `/tavagas` `.gitignore` entry.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhavagas/compare/v0.2.1...v0.3.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhavagas",
+		"version": "0.2.1",
+		"date": "2026-09-17",
+		"title": "v0.2.1",
+		"body": "## Changed\n- Dropped `ctrl+c` from quit (`q` only), matching the ecosystem convention from tabelhajobs/tabelharadar.\n- Config reload moved from `f5` to `ctrl+shift+r`.\n- Notify key moved from `n` to `b`.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhavagas/compare/v0.2.0...v0.2.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhascaff",
+		"version": "0.8.0",
+		"date": "2026-09-17",
+		"title": "v0.8.0",
+		"body": "## Features\n- New `--bin` flag on `setup`/`doctor`, distinct from `--name`: `--name` is the repo/module name (badges, URLs), `--bin` is the short installed binary name (e.g. `taglue`). Defaults to `--name` when omitted, so every existing invocation renders identically.\n- `--tui` non-lib projects now scaffold `cmd/<bin>/main.go`, and `release.yml` builds from `./cmd/<bin>` instead of the repo root — this is what actually lets `go install module/cmd/<bin>@latest` produce a binary named `<bin>`.\n- New `.githooks/post-commit` (rendered per-project) rebuilds and reinstalls `~/.local/bin/<bin>` after every commit. `setup` wires `core.hooksPath` to `.githooks` automatically (best-effort, never overrides an existing value).\n\n## Why\nSeveral `--tui` repos had hand-edited their `release.yml` to use a short binary name, which `doctor` then reported as permanent drift — `Bin` being folded into `Name` was the root cause. See [tabelhaglue v0.2.0](https://github.com/TAbelhaDev/tabelhaglue/releases/tag/v0.2.0) for the reference implementation this generalizes.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhascaff/compare/v0.7.1...v0.8.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelhascaff/compare/v0.7.1...v0.8.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhakanban",
+		"version": "0.5.0",
+		"date": "2026-09-17",
+		"title": "v0.5.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelhakanban/cmd/takanban@latest`.\n\n## Changes\n- Moved `package main` into `cmd/takanban/`.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/takanban` after every commit.\n- Regenerated via `tascaff setup --bin takanban`, which also fixed a pre-existing `release.yml` drift and a stale \"tabelatuiui\" README badge typo.\n\nSee [tabelhaglue v0.2.0](https://github.com/TAbelhaDev/tabelhaglue/releases/tag/v0.2.0) for the reference implementation, and [tabelhascaff v0.8.0](https://github.com/TAbelhaDev/tabelhascaff/releases/tag/v0.8.0) for the scaffolding convention.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhakanban/compare/v0.4.0...v0.5.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhatuiui",
+		"version": "0.7.1",
+		"date": "2026-09-17",
+		"title": "v0.7.1",
+		"body": "## Fixes\n- **Markdown panel colors**: `str()` in `markdown/markdown.go` double-prefixed `#` onto lipgloss.Color values that already include it (e.g. `#f5c2e7` → `##f5c2e7`), producing an invalid hex string that termenv silently ignored. Every themed color in the markdown panel — headings, inline code, links, emphasis, blockquote — rendered with no color at all.\n- **List markers**: `Enumeration`/`Item` were missing `BlockPrefix`, so ordered lists rendered `1text` instead of `1. text` and bullets had no `•` marker.\n\n## Testing\n- Added `TestRenderAppliesThemeColor` (fails on the double-`#` regression) and `TestRenderListMarkers`.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhatuiui/compare/v0.7.0...v0.7.1",
+		"source": "release"
+	},
+	{
+		"repo": "tabelharadar",
+		"version": "0.6.0",
+		"date": "2026-09-17",
+		"title": "v0.6.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tabelharadar/cmd/taradar@latest`.\n\n## Changes\n- Moved `package main` into `cmd/taradar/`.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/taradar` after every commit.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelharadar/compare/v0.5.0...v0.6.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelharadar/compare/v0.5.0...v0.6.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelharadar",
+		"version": "0.5.0",
+		"date": "2026-09-17",
+		"title": "v0.5.0",
+		"body": "### Added\n- New IPC method `projects.commits`: per-project commit list for a time window. Filters: `since=` (required, duration like `7d` or absolute date `YYYY-MM-DD`), `group=` (optional), `max=` (optional, default 50 per project).\n- `parseSince()` now also accepts an absolute date (`YYYY-MM-DD`), not just relative durations.\n\n### Changed\n- Keybinding cleanup: consolidated `focus-list`/`focus-desc` into a single `nav` action (`ctrl+h`/`ctrl+l`), matching the ecosystem convention from tabelhajobs/tabelhaglue. Dropped `ctrl+c` from quit and the redundant `o` alias for open (`enter` only). Config reload moved from `f5` to `ctrl+shift+r`.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelharadar/compare/v0.4.0...v0.5.0\n\n**Full Changelog**: https://github.com/TAbelhaDev/tabelharadar/compare/v0.4.0...v0.5.0",
+		"source": "release"
+	},
+	{
+		"repo": "tabelhajobs",
+		"version": "1.3.0",
+		"date": "2026-09-17",
+		"title": "v1.3.0",
+		"body": "## Breaking\n- Install command changed to `go install github.com/TAbelhaDev/tajobs/cmd/tajobs@latest`.\n\n## Changes\n- Moved `package main` into `cmd/tajobs/` — module already matched the binary name, but keeping main at the repo root blocked the canonical `tascaff --tui` release template, requiring a hand-maintained exception forever.\n- Added a `post-commit` git hook (`.githooks/`) that rebuilds and reinstalls `~/.local/bin/tajobs` after every commit.\n- Fixed a latent `release.yml` drift (the upload-artifact name still said \"tabelhajobs\").\n\nSee [tabelhaglue v0.2.0](https://github.com/TAbelhaDev/tabelhaglue/releases/tag/v0.2.0) and [tabelhascaff v0.8.0](https://github.com/TAbelhaDev/tabelhascaff/releases/tag/v0.8.0) for the underlying convention.\n\n**Full diff**: https://github.com/TAbelhaDev/tabelhajobs/compare/v1.2.0...v1.3.0",
+		"source": "release"
+	},
+	{
 		"repo": "tabelhatuiui",
 		"version": "0.7.0",
 		"date": "2026-09-16",
@@ -14,6 +158,14 @@
 		"title": "v0.3.0",
 		"body": "**Full Changelog**: https://github.com/TAbelhaDev/tabelhamem/compare/v0.2.0...v0.3.0",
 		"source": "release"
+	},
+	{
+		"repo": "tabelhawhisper",
+		"version": "1.1.0",
+		"date": "2026-09-12",
+		"title": "tabelhawhisper 1.1.0",
+		"body": "### Added\n- Floating recording pill (layer-shell overlay) with Stop and Cancel buttons,\n  visible only while active. Cancel kills in-flight transcription instantly.\n- Transcription is now cancellable via `whisper_dictate.py cancel`.\n- `Mod+E` during transcription cancels the current one and starts a new\n  recording immediately (no more waiting for the old transcription to finish).\n- Per-session WAV files (`/tmp/whisper-dictate-<ts>.wav`) prevent a new\n  recording from clobbering an in-flight transcription.\n- State file now carries `python`, `script`, `wav`, and `indicator` fields\n  so the pill can invoke commands without hardcoded paths.\n- Config migration: `install.sh` automatically copies config from the old\n  `~/.config/tabela/` dir to the new `~/.config/tabelha/` dir.\n\n### Changed\n- Default transcription model bumped from `small` to `medium` (still\n  fully configurable via `config.toml`).\n- Repository renamed from `tabelawhisper` to `tabelhawhisper` (GitHub redirect\n  is automatic).\n- Config dir corrected from `~/.config/tabela/` to `~/.config/tabelha/`.",
+		"source": "changelog"
 	},
 	{
 		"repo": "tabelhatuiui",
@@ -193,22 +345,6 @@
 	},
 	{
 		"repo": "tabelharadar",
-		"version": "0.3.2",
-		"date": "2026-08-14",
-		"title": "v0.3.2",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.1...v0.3.2",
-		"source": "release"
-	},
-	{
-		"repo": "tabelharadar",
-		"version": "0.3.1",
-		"date": "2026-08-14",
-		"title": "v0.3.1",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelaradar/compare/v0.3.0...v0.3.1",
-		"source": "release"
-	},
-	{
-		"repo": "tabelharadar",
 		"version": "0.3.0",
 		"date": "2026-08-14",
 		"title": "v0.3.0",
@@ -221,14 +357,6 @@
 		"date": "2026-08-11",
 		"title": "v0.5.0",
 		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.4.1...v0.5.0",
-		"source": "release"
-	},
-	{
-		"repo": "tabelhascaff",
-		"version": "0.3.0",
-		"date": "2026-08-10",
-		"title": "v0.3.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelascaffold/compare/v0.2.0...v0.3.0",
 		"source": "release"
 	},
 	{
@@ -265,42 +393,10 @@
 	},
 	{
 		"repo": "tabelhatuiui",
-		"version": "0.2.0",
-		"date": "2026-08-09",
-		"title": "tabelhatuiui 0.2.0",
-		"body": "### Added\n\n- `NewThemeFromEnv(appPrefix)` — resolve o tema lendo `<PREFIX>_DMS_SETTINGS`\n  e `<PREFIX>_ACCENT` do ambiente, substituindo o boilerplate de `theme.go`\n  que todo app repetia.\n- `Footer` — builder da barra de status/help: contexto à esquerda + hints de\n  teclado à direita, gerados a partir de uma slice de `key.Binding` (nunca\n  mais drift entre o que o `Update` aceita e o que o footer mostra). O\n  overflow é truncado por token (` · `) em vez de caractere.\n- `HelpModal` — overlay centralizado listando todas as keybindings em seções\n  (o \"?\" de todo TUI), com scroll e fechamento por `q`/`esc`. Só precisa do\n  tema; a lib cuida do posicionamento.\n- `Binding` — alias para `key.Binding` (bubbles/key), exposto pelo pacote\n  pra apps não precisarem importar a bubbles diretamente pra declarar atalhos.\n\n### Changed\n\n- `tabelhatuiui` agora depende de `bubbles`/`bubbletea` (para os tipos\n  `key.Binding` usados por `Footer`/`HelpModal`).",
-		"source": "changelog"
-	},
-	{
-		"repo": "tabelhatuiui",
 		"version": "0.1.1",
 		"date": "2026-08-09",
 		"title": "tabelhatuiui 0.1.1",
 		"body": "### Changed\n\n- `Header` agora usa o background do accent (Primary) com texto Base, em vez\n  de mantle + texto accent — o cabeçalho fica visível contra terminal escuro.\n- `Modal` passou a usar borda do accent (Primary) no lugar de lavender.\n- `Header`/`Footer` ficam flush contra as bordas do terminal, com padding\n  horizontal de 2 colunas (removido o antigo padding interno que os apps\n  precisavam compensar).",
 		"source": "changelog"
-	},
-	{
-		"repo": "tabelhajobs",
-		"version": "0.2.2",
-		"date": "2026-08-09",
-		"title": "v0.2.2",
-		"body": "<!-- Release notes generated using configuration in .github/release.yml at v0.2.2 -->\n\n\n\n**Full Changelog**: https://github.com/ianptkcs/dankjobs/compare/v0.2.1...v0.2.2",
-		"source": "release"
-	},
-	{
-		"repo": "tabelhakanban",
-		"version": "0.2.0",
-		"date": "2026-08-06",
-		"title": "v0.2.0",
-		"body": "## v0.2.0 — kanban com navegação hjkl, sidebar, preview, due dates e formulários estilo djobs\n\nMaior release até aqui. Resumo das mudanças:\n\n**Navegação hjkl**\n- `h`/`l` navegam colunas (na primeira, `h` entra na sidebar de boards), `j`/`k` cards, `H`/`L` movem card, `ctrl+h`/`ctrl+l` reordenam coluna.\n- Sidebar de boards colapsável (`ctrl+e`); preview do markdown do card (`o`); página de log de atividades (`g`).\n\n**Due dates**\n- `t` define/limpa o due date do card (formato `DD/MM`), guardado no front-matter do `.md` e exibido no rodapé do card (vermelho quando vencido).\n\n**Formulários estilo djobs (`huh`)**\n- Todos os prompts (novo card/coluna/board, renomear, due) agora são formulários com label, placeholder e navegação — criar card já pergunta título + due.\n\n**Outros**\n- Colunas redimensionam pra preencher a tela; seleção de card é um retângulo accent completo.\n- Notificações numa linha reservada (não quebram mais a borda das colunas).\n- `ctrl+r` dá retorno (\"recarregado — N boards\").\n- IPC: novos `cards.create` / `cards.move`.\n\nBinários para linux (amd64/arm64) e darwin (amd64/arm64).\n",
-		"source": "release"
-	},
-	{
-		"repo": "tabelhakanban",
-		"version": "0.1.0",
-		"date": "2026-08-04",
-		"title": "v0.1.0",
-		"body": "**Full Changelog**: https://github.com/TabelaDev/tabelakanban/commits/v0.1.0",
-		"source": "release"
 	}
 ]
