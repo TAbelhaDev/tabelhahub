@@ -1,5 +1,13 @@
 [
 	{
+		"repo": "tabelhatuiui",
+		"version": "0.7.0",
+		"date": "2026-09-16",
+		"title": "tabelhatuiui 0.7.0",
+		"body": "### Added\n\n- `Viewport` — painel scrollável e focável que captura j/k, ↑/↓, pgup/pgdn,\n  home/end, g/G quando focado. `View` renderiza painel com borda `theme.Panel(focused)`,\n  título com indicador `(início–fim/total)` quando há rolagem.\n\n- `markdown` subpacote:\n  - `Render(theme, body, width)` — renderiza markdown via glamour com `StyleConfig`\n    derivado do `Theme` (Catppuccin Mocha + accent DMS).\n  - `StripLeadingH1(body)` — remove o H1 inicial que duplica o título do painel.\n  - `Panel` — combina Viewport + cache body/width + glamour: `SetMarkdown` só\n    re-renderiza quando o conteúdo muda.",
+		"source": "changelog"
+	},
+	{
 		"repo": "tabelhamem",
 		"version": "0.3.0",
 		"date": "2026-09-14",

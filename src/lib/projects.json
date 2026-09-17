@@ -59,7 +59,7 @@
 		"html_url": "https://github.com/TAbelhaDev/tabelhatuiui",
 		"homepage": "",
 		"topics": [],
-		"pushed_at": "2026-09-12T18:27:01Z",
+		"pushed_at": "2026-09-16T16:12:07Z",
 		"links": {}
 	},
 	{
@@ -300,6 +300,21 @@
 		"homepage": "",
 		"topics": [],
 		"pushed_at": "2026-09-14T19:41:36Z",
+		"links": {}
+	},
+	{
+		"name": "tabelharecap",
+		"description": "A passive inbox for daily novidades — anything can drop a note in via IPC, you just check what's new",
+		"tagline": "A passive inbox for daily novidades — anything can drop a note in via IPC, you just check what's new",
+		"language": "Go",
+		"kind": "web",
+		"accent": "var(--ctp-mauve)",
+		"featured": false,
+		"order": 99,
+		"html_url": "https://github.com/TAbelhaDev/tabelharecap",
+		"homepage": "",
+		"topics": [],
+		"pushed_at": "2026-09-16T16:08:57Z",
 		"links": {}
 	}
 ]
