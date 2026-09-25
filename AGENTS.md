@@ -28,7 +28,6 @@ repo e o CONTRIBUTING (política de linguagem) também valem.
 
 `bun run aggregate` roda `scripts/aggregate.mjs` (usa o `gh` CLI) e reescreve os dois
 JSONs commitados. O build **não** roda a agregação - o deploy roda antes. Cobertura:
-só repos públicos; `tabelhaport` e `.github` ficam de fora (linkados à parte).
 
 ## Comandos
 
