@@ -44,7 +44,6 @@ const overlay = {
 		accent: 'var(--ctp-sapphire)',
 		tagline: 'Filtra vagas de programação que valem a pena e notifica as que importam.'
 	},
-	tabelhawebui: {
 		order: 4,
 		featured: true,
 		kind: 'lib',
@@ -52,8 +51,6 @@ const overlay = {
 		tagline:
 			'Tema + chrome compartilhado dos apps web: Catppuccin com estética "reading someone\'s source file".',
 		links: {
-			npm: 'https://www.npmjs.com/package/@tabelhadev/tabelhawebui',
-			npmMcp: 'https://www.npmjs.com/package/@tabelhadev/mcp-tabelhawebui'
 		}
 	},
 	tabelhaos: {
