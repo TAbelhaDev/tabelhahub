@@ -19,8 +19,6 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ORG = 'TAbelhaDev';
 const SITE = 'tabelhahub';
 /* Repos do org que não são produtos: o profile README (.github) e o portfolio
-   da pessoa (tabelhaport) - os dois são linkados à parte. */
-const EXCLUDED = new Set(['.github', 'tabelhaport']);
 
 /* Overlay curado: o que o script NÃO decide sozinho. Chave = nome do repo.
    `kind`: web | tui | os | lib | script. `accent`: cor Catppuccin pro card. */
