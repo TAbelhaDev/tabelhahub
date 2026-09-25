@@ -2,7 +2,6 @@
 
 Site/hub central da TAbelhaDev (landing + news + changelog agregado). Repo **aberto**,
 AGPL-3.0. Este app segue as regras dos apps web da TAbelhaDev em
-`tabelhawebui/docs/convencoes-web.md` - leia esse arquivo antes de mexer. O README do
 repo e o CONTRIBUTING (política de linguagem) também valem.
 
 ## O que é cada parte
@@ -21,7 +20,6 @@ repo e o CONTRIBUTING (política de linguagem) também valem.
 
 - SvelteKit 2 + Svelte 5 (runes) + TypeScript, **adapter-cloudflare** (Workers). Config
   separada: `svelte.config.js` (adapter) + `vite.config.ts` (tailwind + sveltekit).
-- `@tabelhadev/tabelhawebui` (registry). Tailwind v4, tema único em `src/routes/layout.css`.
 - Sem banco, sem auth, sem PWA.
 
 ## Dados (agregação)
